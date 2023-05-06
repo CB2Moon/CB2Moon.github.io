@@ -6,37 +6,25 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Chunbin Wang
+title: Master of Information Technology
+email: chunbin.wang@uq.net.au
+email_title: e-mail
+website: https://cb2moon.github.io/
+website_title: website
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+github_username:  CB2Moon
+linkedin_username: Chunbin Wang
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: Online resume
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+  url: https://cb2moon.github.io/
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -45,72 +33,250 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
+about_title: 🙋🏻‍♂️ About Me
+about_profile_image: images/profile-HD.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  I am a versatile and creative programmer with a background in architecture and IT.
+  I discovered my passion for programming when I was doing parametric designs as an undergraduate student in architecture.
+  I decided to pursue a master's degree in IT to deepen my knowledge and skills in this field.
+  The unique combination of architecture and IT experiences enables me to approach problems from different perspectives and deliver high-quality results.
+  I am a fast learner and a problem solver who always strives to deliver value and quality to the projects I work on. I hope to grow as a real developer.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  The things that I currently have the most experience working with are:
+  <mark>Java</mark>, <mark>Python</mark>, <mark>MySQL</mark>
+  <mark>JavaScript</mark>, <mark>CSS</mark>, <mark>Vue</mark> and <mark>PHP</mark>
+
+  I also have some experience with the <mark>SpringBoot</mark> framework,
+  machine learning, and
+  <mark>Dafny</mark> verification-aware programming language,
 
 content:
-  - title: Projects # Title for the section
+  - title: 💻 Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+      - layout: left
+        border: weak
+        title: 🗺️ WorldCitizen
+        caption: '<i display="font-size: 1.4rem;">A mobile chat app for making cross-cultural friends</i>'
+        link: https://github.com/CB2Moon/WorldCitizen
+        link_text:  <i class="fab fa-github" title="Github page for project"></i> Github
+        description: | # this will include new lines to allow paragraphs
+          This is a team project based on a project proposal to facilitate cultural exchange
+          and ease the loneliness of international students. The frontend is implemented
+          using <mark>Vue</mark>, and the backend is implemented using Java and <mark>
+          SpringBoot</mark> framework, with a <mark>MySQL</mark> database. I designed
+          the entire UI interfaces, implemented most of the front-end programming and half
+          of the back-end programming.
+
+          <div class="img-gallery">
+            <figure>
+              <img src="./images/home-page.gif" alt="Demo - Browsing" />
+              <figcaption>Demo - Browsing</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/channel.gif" alt="Demo - Browse channel" />
+              <figcaption>Demo - Browse channel</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/Add-tag-recommand.gif" alt="Demo - Add tags and auto recommend" />
+              <figcaption>Demo - Add tags and auto recommend</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/worldcitizenUI1.png" alt="UI - Home page" />
+              <figcaption>UI - Home page</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/worldcitizenUI2.png" alt="UI - Home page" />
+              <figcaption>UI - Home page</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/worldcitizenUI3.png" alt="UI - Join new courses page" />
+              <figcaption>UI - Join new courses page</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/worldcitizenUI4.png" alt="UI - Join new courses page" />
+              <figcaption>UI - Join new courses page</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/worldcitizenUI5.png" alt="UI - About page" />
+              <figcaption>UI - About page</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/worldcitizenUI6.png" alt="UI - About page posts" />
+              <figcaption>UI - About page posts</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/worldcitizenUI7.png" alt="UI - Channel page" />
+              <figcaption>UI - Channel page</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/worldcitizenUI8.png" alt="UI - in channel" />
+              <figcaption>UI - in channel</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/worldcitizenUI9.png" alt="UI - see channel post" />
+              <figcaption>UI - see channel post</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/worldcitizenUI10.png" alt="UI - Friends page" />
+              <figcaption>UI - Friends page</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/worldcitizenUI11.png" alt="UI - Chat page" />
+              <figcaption>UI - Chat page</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/worldcitizenUI12.png" alt="UI - Add a friend" />
+              <figcaption>UI - Add a friend</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/worldcitizenUI13.png" alt="UI - Notification page" />
+              <figcaption>UI - Notification page</figcaption>
+            </figure>
+          </div>
+          
+          *Scroll horizontally to view more!*
+        # 什么MVC啥的吹一吹⚠️ ![prototype](./images/channel.gif)
+
+      - layout: right
+        border: weak
+        title: 🌳 Brisbane Park Explorer
+        caption: '<i display="font-size: 1.4rem;">A website to view all parks in Brisbane as well as the activities held in the park</i>'
+        link: https://github.com/CB2Moon/BrisbaneParkExplorer
+        link_text:  <i class="fab fa-github" title="Github page for project"></i> Github
+        description: | # this will include new lines to allow paragraphs
+          This website is designed to increase the usage of the public green space of Brisbane.
+          The website is implemented using <mark>PHP</mark>. The website will retrieve data from the Brisbane
+          government website and stores it in <mark>MySQL</mark>, which is handled by <mark>phpMyAdmin</mark>.
+          It uses ToroPHP to realize RESTful, which will then invoke corresponding handlers to deal with request.
+          After handling the data, a view is created.
+
+          <div class="img-gallery">
+            <figure>
+              <img src="./images/studio1Project1.png" alt="Home page" />
+              <figcaption>Demo - Home page</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/studio1Project2.png" alt="A specific park page" />
+              <figcaption>Demo - A specific park page</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/studio1Project3.png" alt="Post page" />
+              <figcaption>Demo - Post page</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/studio1Project4.png" alt="A specific post" />
+              <figcaption>Demo - A specific post</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/studio1Project5.png" alt="Search page" />
+              <figcaption>Demo - Search page</figcaption>
+            </figure>
+          </div>
+
+          *Scroll horizontally to view more!*
+
+      - layout: left
+        border: weak
+        title: 🙋🏻‍♂️ Online Resume
+        caption: '<i display="font-size: 1.4rem;"> Personal website hosted on <mark>GitHub</mark>.</i>'
+        link: https://cb2moon.github.io
+        link_text: <i class="fas fa-globe" title="the website"></i> website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Github page for project
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+            url: https://github.com/CB2Moon/CB2Moon.github.io
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          [The website](https://cb2moon.github.io/) (you're viewing) uses a template from <mark>sproogen/resume-theme</mark>.
+          Powered by <mark>Jekyll</mark>, I can use <mark>YAML</mark> and <mark>CSS</mark> to
+          create a static blog site hosted on Github. I re-style the template a little bit so
+          that my content can be displayed clearly.
 
-  - title: Experience # Title for the section
+          <div class="img-gallery">
+            <figure>
+              <img src="./images/CVwebDesktop.png" alt="Website shown in PC" />
+              <figcaption>Demo - View in a PC</figcaption>
+            </figure>
+            <figure>
+              <img src="./images/CVwebPhone.png" alt="Website shown in phone" />
+              <figcaption>Demo - View in a phone</figcaption>
+            </figure>
+          </div>
+
+          *Scroll horizontally to view more!*
+
+
+      - layout: right
+        title: 🧌 Inhabitant Hunter Game
+        caption: '<i display="font-size: 1.4rem;">This project is for fun.</i>'
+        link: https://github.com/CB2Moon/InhabitantHunter
+        link_text:  <i class="fab fa-github" title="Github page for project"></i> Github          
+        description: | # this will include new lines to allow paragraphs
+          A 2D-grid video game implemented by Java. This project uses MVC design patter.
+          There is a singleton scenario manager controlling the game once it's started.
+
+          <img src="./images/hunter.png" alt="Demo project" style="width: 100%; height: auto;"/>
+
+  # - title: Experience # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: The Boring Company
+  #       link: boringcompany.com
+  #       # link_text: boringcompany.com
+  #       sub_title: Senior Network System Administrator
+  #       caption: November 2017 - Present
+  #       quote: >
+  #         Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  #       description: | # this will include new lines to allow paragraphs
+  #           Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+
+  - title: 👨🏼‍🎓 Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        border: weak
+        title: The University of Queensland
+        sub_title: Master of Information Technology
+        caption: 2021 - 2023
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          UQ offered me the opportunity to pivot into computer science from a non-traditional background.
+          While I spent a year developing foundational CS knowledge through MIT OpenCourseWare, UQ enabled
+          me to apply this learning in a practical setting. 
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+          Though new to the field, my self-directed preparation and multidisciplinary design perspective
+          facilitate quick learning.I excelled in programming and design computing courses and did several
+          projects by myself. However, I'm more eager to build real-world experience.
+
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        border: weak
+        title: Shenzhen University
+        sub_title: Bachelor of Architecture
+        caption: 2015 - 2020
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          My architecture education taught me that good design
+          means balancing innovative style with human needs. 
+          Initially focused on designing eye-catching buildings,
+          I soon learned to prioritize functionality and purpose.
+          A building's appearance became secondary to the value and purpose it serves. 
+          These architectural user-centered design principles apply broadly to other fields.
+          
+          My favourite architect, Zaha Hadid, showed me architecture could also
+          leverage new technologies like parametric design. I saw an opportunity
+          to combine these interests by using computation to enhance user experience.
+          This led me to explore computer science.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  #     Look at this cool image  
+  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
