@@ -29,7 +29,7 @@
         {% for image in item.images %}
           <figure>
             <img src="{{ image.img_link }}" alt="{{ image.img_alt }}" />
-            <figcaption>{{ image.img_caption | strip | markdownify | escape }}</figcaption>
+            <figcaption style="font-size: 1.2rem; font-style: italic;">{{ image.img_caption | strip | markdownify}}</figcaption>
           </figure>
         {% endfor %}
         </div>
