@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: CB2Moon/CB2Moon.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -26,11 +26,6 @@ additional_links:
   icon: fas fa-globe
   url: https://cb2moon.github.io/
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 about_title: 🙋🏻‍♂️ About Me
@@ -47,8 +42,7 @@ about_content: | # this will include new lines to allow paragraphs
   <mark>JavaScript</mark>, <mark>CSS</mark>, <mark>Vue</mark> and <mark>PHP</mark>
 
   I also have some experience with the <mark>SpringBoot</mark> framework,
-  machine learning, and
-  <mark>Dafny</mark> verification-aware programming language,
+  machine learning, and <mark>Dafny</mark> verification-aware programming language.
 
 content:
   - title: 💻 Projects # Title for the section
@@ -67,76 +61,56 @@ content:
           SpringBoot</mark> framework, with a <mark>MySQL</mark> database. I designed
           the entire UI interfaces, implemented most of the front-end programming and half
           of the back-end programming.
-
-          <div class="img-gallery">
-            <figure>
-              <img src="./images/home-page.gif" alt="Demo - Browsing" />
-              <figcaption>Demo - Browsing</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/channel.gif" alt="Demo - Browse channel" />
-              <figcaption>Demo - Browse channel</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/Add-tag-recommand.gif" alt="Demo - Add tags and auto recommend" />
-              <figcaption>Demo - Add tags and auto recommend</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worldcitizenUI1.png" alt="UI - Home page" />
-              <figcaption>UI - Home page</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worldcitizenUI2.png" alt="UI - Home page" />
-              <figcaption>UI - Home page</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worldcitizenUI3.png" alt="UI - Join new courses page" />
-              <figcaption>UI - Join new courses page</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worldcitizenUI4.png" alt="UI - Join new courses page" />
-              <figcaption>UI - Join new courses page</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worldcitizenUI5.png" alt="UI - About page" />
-              <figcaption>UI - About page</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worldcitizenUI6.png" alt="UI - About page posts" />
-              <figcaption>UI - About page posts</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worldcitizenUI7.png" alt="UI - Channel page" />
-              <figcaption>UI - Channel page</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worldcitizenUI8.png" alt="UI - in channel" />
-              <figcaption>UI - in channel</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worldcitizenUI9.png" alt="UI - see channel post" />
-              <figcaption>UI - see channel post</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worldcitizenUI10.png" alt="UI - Friends page" />
-              <figcaption>UI - Friends page</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worldcitizenUI11.png" alt="UI - Chat page" />
-              <figcaption>UI - Chat page</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worldcitizenUI12.png" alt="UI - Add a friend" />
-              <figcaption>UI - Add a friend</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worldcitizenUI13.png" alt="UI - Notification page" />
-              <figcaption>UI - Notification page</figcaption>
-            </figure>
-          </div>
-          
-          *Scroll horizontally to view more!*
-        # 什么MVC啥的吹一吹⚠️ ![prototype](./images/channel.gif)
+        images:
+          - img_link: ./images/home-page.gif
+            img_alt: Demo - Browsing
+            img_caption: Demo - Browsing
+          - img_link: ./images/channel.gif
+            img_alt: Demo - Browse channel
+            img_caption: Demo - Browse channel
+          - img_link: ./images/Add-tag-recommand.gif
+            img_alt: Demo - Add tags and auto recommend
+            img_caption: Demo - Add tags and auto recommend
+          - img_link: ./images/worldcitizenUI1.png
+            img_alt: UI - Home page
+            img_caption: UI - Home page
+          - img_link: ./images/worldcitizenUI2.png
+            img_alt: UI - Home page
+            img_caption: UI - Home page
+          - img_link: ./images/worldcitizenUI3.png
+            img_alt: UI - Join new courses page
+            img_caption: UI - Join new courses page
+          - img_link: ./images/worldcitizenUI4.png
+            img_alt: UI - Join new courses page
+            img_caption: UI - Join new courses page
+          - img_link: ./images/worldcitizenUI5.png
+            img_alt: UI - About page
+            img_caption: UI - About page
+          - img_link: ./images/worldcitizenUI6.png
+            img_alt: UI - About page posts
+            img_caption: UI - About page posts
+          - img_link: ./images/worldcitizenUI7.png
+            img_alt: UI - Channel page
+            img_caption: UI - Channel page
+          - img_link: ./images/worldcitizenUI8.png
+            img_alt: UI - in channel
+            img_caption: UI - in channel
+          - img_link: ./images/worldcitizenUI9.png
+            img_alt: UI - see channel post
+            img_caption: UI - see channel post
+          - img_link: ./images/worldcitizenUI10.png
+            img_alt: UI - Friends page
+            img_caption: UI - Friends page
+          - img_link: ./images/worldcitizenUI11.png
+            img_alt: UI - Chat page
+            img_caption: UI - Chat page
+          - img_link: ./images/worldcitizenUI12.png
+            img_alt: UI - Add a friend
+            img_caption: UI - Add a friend
+          - img_link: ./images/worldcitizenUI13.png
+            img_alt: UI - Notification page
+            img_caption: UI - Notification page
+        # 什么MVC啥的吹一吹⚠️
 
       - layout: right
         border: weak
@@ -150,31 +124,22 @@ content:
           government website and stores it in <mark>MySQL</mark>, which is handled by <mark>phpMyAdmin</mark>.
           It uses ToroPHP to realize RESTful, which will then invoke corresponding handlers to deal with request.
           After handling the data, a view is created.
-
-          <div class="img-gallery">
-            <figure>
-              <img src="./images/studio1Project1.png" alt="Home page" />
-              <figcaption>Demo - Home page</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/studio1Project2.png" alt="A specific park page" />
-              <figcaption>Demo - A specific park page</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/studio1Project3.png" alt="Post page" />
-              <figcaption>Demo - Post page</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/studio1Project4.png" alt="A specific post" />
-              <figcaption>Demo - A specific post</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/studio1Project5.png" alt="Search page" />
-              <figcaption>Demo - Search page</figcaption>
-            </figure>
-          </div>
-
-          *Scroll horizontally to view more!*
+        images:
+          - img_link: ./images/studio1Project1.png
+            img_alt: Home page
+            img_caption: Demo - Home page
+          - img_link: ./images/studio1Project2.png
+            img_alt: A specific park page
+            img_caption: Demo - A specific park page
+          - img_link: ./images/studio1Project3.png
+            img_alt: Post page
+            img_caption: Demo - Post page
+          - img_link: ./images/studio1Project4.png
+            img_alt: A specific post
+            img_caption: Demo - A specific post
+          - img_link: ./images/studio1Project5.png
+            img_alt: Search page
+            img_caption: Demo - Search page
 
       - layout: left
         border: weak
@@ -192,19 +157,13 @@ content:
           create a static blog site hosted on Github. I re-style the template a little bit so
           that my content can be displayed clearly.
 
-          <div class="img-gallery">
-            <figure>
-              <img src="./images/CVwebDesktop.png" alt="Website shown in PC" />
-              <figcaption>Demo - View in a PC</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/CVwebPhone.png" alt="Website shown in phone" />
-              <figcaption>Demo - View in a phone</figcaption>
-            </figure>
-          </div>
-
-          *Scroll horizontally to view more!*
-
+        images:
+          - img_link: ./images/CVwebDesktop.png
+            img_alt: Website shown in PC
+            img_caption: Demo - View in a PC
+          - img_link: ./images/CVwebPhone.png
+            img_alt: Website shown in phone
+            img_caption: Demo - View in a phone
 
       - layout: right
         title: 🧌 Inhabitant Hunter Game
@@ -214,8 +173,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           A 2D-grid video game implemented by Java. This project uses MVC design patter.
           There is a singleton scenario manager controlling the game once it's started.
-
-          <img src="./images/hunter.png" alt="Demo project" style="width: 100%; height: auto;"/>
+        images:
+          - img_link: ./images/hunter.png
+            img_alt: Demo project
+            img_caption: Demo project
 
   # - title: Experience # Title for the section
   #   layout: list # Type of content section (list/text)
@@ -266,24 +227,13 @@ content:
           to combine these interests by using computation to enhance user experience.
           This led me to explore computer science.
 
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-  #     - Rock climbing
-  #     - Gaming
-  #     - Knitting
-  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-  #     Look at this cool image  
-  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: CB2Moon/CB2Moon.github.io
+# theme: modern-resume-theme
 
 sass:
   sass_dir: _sass
@@ -291,3 +241,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
